@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import bg from "../assets/authBg.png"
 import { IoMdEye, IoMdEyeOff } from "react-icons/io";
-import { userDataContext } from '../context/userContext';
+import { userDataContext } from '../context/UserContext';
 import axios from "axios"
 
 function SignIn() {
