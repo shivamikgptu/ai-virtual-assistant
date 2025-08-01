@@ -1,8 +1,8 @@
 import React from 'react'
 import { useContext } from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom'
-import SignUp from './pages/signUp.jsx'
-import SignIn from './pages/signIn.jsx'
+import SignUp from './pages/SignUp.jsx'
+import SignIn from './pages/SignIn.jsx'
 import Customize from './pages/Customize.jsx'
 import Customize2 from './pages/Customize2.jsx'
 import { userDataContext } from './context/userContext.jsx';
