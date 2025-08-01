@@ -1,6 +1,6 @@
 import express from "express";
 import { aksToAssistant, getCurrentUser, updateAssistant } from "../controller/user.controller.js";
-import isAuth from "../middlewares/isauth.js";
+import isAuth from "../middlewares/isAuth.js";
 import upload from "../middlewares/multer.js";
 
 const userRouter = express.Router();
