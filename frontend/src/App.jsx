@@ -5,7 +5,7 @@ import SignUp from './pages/SignUp.jsx'
 import SignIn from './pages/SignIn.jsx'
 import Customize from './pages/Customize.jsx'
 import Customize2 from './pages/Customize2.jsx'
-import { userDataContext } from './context/userContext.jsx';
+import { userDataContext } from './context/UserContext.jsx';
 import Home from './pages/Home.jsx';
 
 
