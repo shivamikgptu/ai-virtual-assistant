@@ -6,7 +6,7 @@ export const userDataContext = createContext();
 
 // Context Provider Component
 function UserContext({ children }) {
-  const serverUrl = "http://localhost:5000";
+  const serverUrl = "https://ai-virtual-backend.onrender.com";
 
   const [userData, setUserData] = useState(null);
   const [frontendImage, setFrontendImage] = useState(null);
